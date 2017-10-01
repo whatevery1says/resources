@@ -6,36 +6,36 @@ Created 26 Sept. 2017; last revised 30 Sept. 2017. Markdown conversion on 1 Oct.
 
 ## Contents
 
-+ WE1S Citation Style Rules and Guidelines
-+ Citation Rules and Guidelines
-  + Rules to Keep in Mind (including recent changes in MLA style)
-    + Formatting of Citations in a Bibliography
-    + Formatting of Citations in Endnotes (with Accompanying Bibliography)
-    + Permissions Language
-  + Common Source Citation Format Standards (with Examples)
-    + General Nested Container Format of Citations
-    + Books (basic format)
-    + Work in an Anthology or Collection
-    + Periodicals (Magazines, Newspapers, and Scholarly Journals)
-    + Article in a Scholarly Journal
-    + Review
-    + Website (a whole site)
-    + Page on a Website
-    + Images (Photograph, Sculpture, or Painting)
-    + Email
-    + Blog Post or Discussion Group
-    + A Tweet
-    + YouTube Video
-    + Comment on a Website or Article
-+ WE1S rules and guidelines for projects, tools, and other sources without current citation standards
-  + Projects
-  + Tools
-  + Protocols
-  + Archived Web Sites
-  + Wikipedia Article
-+ Example Bibliography
-  + Works Cited
-  + Example Endnotes
++ [WE1S Citation Style Rules and Guidelines](#we1s-citation-style-rules-and-guidelines)
++ [Citation Rules and Guidelines](#citation-rules-and-guidelines)
+  + [Rules to Keep in Mind (including recent changes in MLA style)](#rules-to-keep-in-mind-including-recent-changes-in-mla-style)
+    + [Formatting of Citations in a Bibliography](#formatting-of-citations-in-a-bibliography)
+    + [Formatting of Citations in Endnotes (with Accompanying Bibliography)](#formatting-of-citations-in-endnotes-with-accompanying-bibliography)
+    + [Permissions Language](#permissions-language)
+  + [Common Source Citation Format Standards (with Examples)](#common-source-citation-format-standards-with-examples)
+    + [General Nested Container Format of Citations](#general-nested-container-format-of-citations)
+    + [Books (basic format)](#books-basic-format)
+    + [Work in an Anthology or Collection](#work-in-an-anthology-or-collection)
+    + [Periodicals (Magazines, Newspapers, and Scholarly Journals)](#periodicals-magazines-newspapers-and-scholarly-journals)
+    + [Article in a Scholarly Journal](#article-in-a-scholarly-journal)
+    + [Review](#review)
+    + [Website (a whole site)](#website-a-whole-site)
+    + [Page on a Website](#page-on-a-website)
+    + [Images (Photograph, Sculpture, or Painting)](#images-photograph-sculpture-or-painting)
+    + [Email](#email)
+    + [Blog Post or Discussion Group](#blog-post-or-discussion-group)
+    + [A Tweet](#a-tweet)
+    + [YouTube Video](#youtube-video)
+    + [Comment on a Website or Article](#comment-on-a-website-or-article)
++ [WE1S rules and guidelines for projects, tools, and other sources without current citation standards](#we1s-style-rules-and-guidelines-for-projects-tools-and-other-sources-without-current-citation-standards)
+  + [Projects](#projects)
+  + [Tools](#tools)
+  + [Protocols](#protocols)
+  + [Archived Web Sites](#archived-web-sites)
+  + [Wikipedia Article](#wikipedia-article)
++ [Example Bibliography](#example-bibliography-examples-sourced-from-purdue-online-writing-lab)
+  + [Works Cited](#works-cited)
+  + [Example Endnotes](#example-endnotes)
 
 ## Citation Rules and Guidelines
 
