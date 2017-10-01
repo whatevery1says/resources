@@ -1,7 +1,9 @@
 # WE1S Citation Style Rules and Guidelines
 
 Edited by Giorgina Paiella (with additions by Alan Liu)
+
 Converted to Markdown with minor changes by Scott Kleinman.
+
 Created 26 Sept. 2017; last revised 30 Sept. 2017. Markdown conversion on 1 Oct. 2017.
 
 ## Contents
