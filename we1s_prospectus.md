@@ -23,8 +23,8 @@
   * [f. Technical Methods](#_Toc494665701)
 * [III. Plans for Expansion from Pilot Project](#_Toc494665702)
   * [a. Original Pilot Project](#_Toc494665703)
-  * [b. Mellon-Funded Next Stage of Project 18](#_Toc494665704)
-  * [c. Diversity and Inclusion. 22](#_Toc494665705)
+  * [b. Mellon-Funded Next Stage of Project](#_Toc494665704)
+  * [c. Diversity and Inclusion](#_Toc494665705)
   * [d. Expected Outcomes and Benefits](#_Toc494665706)
 * [IV. Works & Tools Cited](#_Toc494665707)
 
