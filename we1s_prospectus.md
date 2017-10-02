@@ -463,50 +463,50 @@ Yang, Henry. “A Message on Diversity from Chancellor Henry T. Yang.” Univers
 
 * * *
 
-<a name="#ftn1"></a>
+<a name="ftn1"></a>
 [<sup>1</sup>](#_ftn1) Other major reports on the humanities are listed under [“Resources”](http://www.humanitiescommission.org/AboutHumanitiesSocialSciences/resources.aspx) on the site of the Commission on the Humanities and Social Science.
 
-<a name="#ftn2"></a>
+<a name="ftn2"></a>
 [<sup>2</sup>](#_ftn2) The [Lexomics](http://wheatoncollege.edu/lexomics/) project was initially formed with the aid of a Mellon Foundation grant to Wheaton College, Massachusetts, to foster interdisciplinary connections in its curriculum and to support student-faculty collaborative research during summer 2007. Its summer research model has continued every year since. The Lexomics group now includes participants from multiple institutions, and its Lexos tool is widely used for teaching and research.
 
-<a name="#ftn3"></a>
+<a name="ftn3"></a>
 [<sup>3</sup>](#_ftn3) The JSON serialization format organizes information into keyword-value pairs for describing a resource or process. Such files are generally readable by humans, but can also be parsed by computers.
 
-<a name="#ftn4"></a>
+<a name="ftn4"></a>
 [<sup>4</sup>](#_ftn4) [Jupyter notebooks](http://jupyter.org/) (previously known as “iPython notebooks”) are documents stored in the JSON format that can not only narrate data processing steps but run actual code in step-by-step modules.
 
-<a name="#ftn5"></a>
+<a name="ftn5"></a>
 [<sup>5</sup>](#_ftn5) Recent research on open, shareable, and reproducible data workflows in the sciences includes articles by Daniel Garijo and Yolanda Gil. There has been some early research on digital humanities workflow―e.g., James Clawson, “Who’s Afraid of Topic Modeling? Proposing a Collaborative Workflow”; and Smiljana Antonijievic Ubois and Ellysa Stern Cahoy, “Supporting Humanists’ Digital Workflow” [see Rockwell]. A recent article on the reproduction and reuse of data analysis in the digital humanities is Sarah Allison’s [“Other People’s Data: Humanities Edition”](http://culturalanalytics.org/2016/12/other-peoples-data-humanities-edition/).
 
-<a name="#ftn6"></a>
+<a name="ftn6"></a>
 [<sup>6</sup>](#_ftn6) See _Cultural Analytics_’s “Data Sharing Policy,” [http://culturalanalytics.org/about/about-ca/](http://culturalanalytics.org/about/about-ca/).
 
-<a name="#ftn7"></a>
+<a name="ftn7"></a>
 [<sup>7</sup>](#_ftn7) WE1S has consulted on its plans with Robert B. Townsend, Director of the American Academy of Arts & Science’s Washington D.C. office, and hopes to include him on the project advisory board.
 
-<a name="#ftn8"></a>
+<a name="ftn8"></a>
 [<sup>8</sup>](#_ftn8) WE1S collects articles using the phrase “the arts” in the United Kingdom and the Commonwealth for reasons documented in its study, [“How Public Media in the US and UK Compare in Their Terminology For the Humanities.”](http://4humwhatevery1says.pbworks.com/w/page/98623971/How%20Public%20Media%20in%20the%20US%20and%20UK%20Compare%20in%20Their%20Terminology%20For%20the%20Humanities) Besides searching on “humanities,” “liberal arts,” and “the arts,” WE1S will experiment with other search patterns and methods in the future _(see sections II.b.2 and II.e.2)_.
 
-<a name="#ftn9"></a>
+<a name="ftn9"></a>
 [<sup>9</sup>](#_ftn9) The pilot project gathered material from six U.S. sources, including major newspapers such as the _New York Times_,_Washington Post_, _Wall Street Journal_, and _Los Angeles Times_; and one major paper each in the United Kingdom and Canada).
 
-<a name="#ftn10"></a>
+<a name="ftn10"></a>
 [<sup>10</sup>](#_ftn10) “Bags of words” are representations of documents in the form of frequency counts of words and other extracted or derivative data that are “non-consumptive” representations because they do not allow for reading the original documents. As defined, for example, by the HathiTrust (in compliance with fair use rulings bearing on the use of copyrighted materials for machine learning), “Non-consumptive analytics includes such computational tasks as text extraction, textual analysis and information extraction, linguistic analysis, automated translation, image analysis, file manipulation, OCR correction, and indexing and search” ( [“Non-Consumptive Use Research Policy”](https://www.hathitrust.org/htrc_ncup)).
 
-<a name="#ftn11"></a>
+<a name="ftn11"></a>
 [<sup>11</sup>](#_ftn11) For effective introductions to topic modeling written for scholars in the humanities and social sciences, respectively, see Underwood, and Mohr & Bogdanov. For an introduction intended for a general scientific audience by one of its inventors see Blei.
 
-<a name="#ftn12"></a>
+<a name="ftn12"></a>
 [<sup>12</sup>](#_ftn12) See WE1S’s comparative study of [“Topic Modeling Systems and Interfaces.”](http://4humwhatevery1says.pbworks.com/w/page/104256241/Research%20on%20Topic%20Modeling) WE1S adapted Goldstone’s dfr-browser, which is open source under the MIT license, with his assistance.
 
-<a name="#ftn13"></a>
+<a name="ftn13"></a>
 [<sup>13</sup>](#_ftn13) Documentation of the WE1S manifest schema version 1.0 is available at [https://github.com/whatevery1says/manifest/blob/master/we1s-manifest-schema-1.1.md](https://github.com/whatevery1says/manifest/blob/master/we1s-manifest-schema-1.1.md).
 
-<a name="#ftn14"></a>
+<a name="ftn14"></a>
 [<sup>14</sup>](#_ftn14) For WE1S’s preliminary scoping study of U.S. Congress, White House, and selected state documents related to the humanities, see 4Humanities.org, [“What U.S. Politicians Say About the Humanities―A Data Set and Analysis.”](http://4humanities.org/4humanities-research-projects/what-u-s-politicians-say-about-the-humanities/)
 
-<a name="#ftn15"></a>
+<a name="ftn15"></a>
 [<sup>15</sup>](#_ftn15) An example is the 2013 report titled _The Heart of the Matter_ from the American Academy of Arts & Sciences’ Commission on the Humanities and Social Sciences. For WE1S’s topic-model study of this document, see 4Humanites.org, [“The Heart of the Matter Topic-Modeled (A Preliminary Experiment).”](http://4humanities.org/2013/11/the-heart-of-the-matter-topic-modeled-a-preliminary-experiment/)
 
-<a name="#ftn16"></a>
+<a name="ftn16"></a>
 [<sup>16</sup>](#_ftn16) Because WE1S concentrates on public discourse about the humanities, it does not attempt to conduct ethnographic or sociological research that directly interviews or questions members of particular racial, ethnic, or immigrant groups. Such approaches are important, but they fall outside the project’s scope and expertise.
