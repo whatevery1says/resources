@@ -33,3 +33,27 @@ Here are some websites for converting from other formats:
 * [Pandoc](https://pandoc.org/try/)
 
 Note that these sites will be more successful if the formatting of the original Word or HTML document is consistent and contains only formatting allowable in Markdown. You may have to hand edit the results afterwards.
+
+## Markdown on the WE1S Website
+
+The WE1S website uses the Jetpack plugin to handle text written in Markdown. You can write your pages and posts directly in Markdown format in the web editor. Wordpress will automatically convert it to HTML when you save, and the HTML is displayed on the public website. Wordpress stores both the rendered HTML and the original Markdown.The [Markdown-Editor](https://wordpress.org/plugins/markdown-editor/) plugin provides preview functionality similar to [Dillinger](https://dillinger.io/).
+
+## Markdown on GitHub
+
+GitHub is a cloud-based service that provides repositories for code and documents. It also provides a wiki and discussion forum (called "Issues") for each repository. Any Markdown document deposited in GitHub is automatically rendered in beautiful HTML on the GitHub website. The [document you are reading](https://github.com/whatevery1says/resources/blob/master/how-to-work-with-markdown.md) is an example. If you wish to see the original Markdown, you can click the [`Raw`](https://github.com/whatevery1says/resources/raw/master/how-to-work-with-markdown.md) button available on any GitHub page.
+
+GitHub uses the `git` version control system to keep track of changes made to files. This is not the place for a full git/GitHub tutorial, but the basic workflow is follows:
+
+1. Create and publish a new repository on GitHub **or** if the repository already exists on GitHub, "clone" it to make a _local_ copy on your computer.
+2. If you have a cloned repository, "pull" the latest version in case someone else on the team has made modifications.
+3. Create or edit files in your cloned repository.
+4. "Commit" the changes. This "stages" the changes for merging with the _remote_ copy on GitHub.
+5. "Push" the commit to the remote repository on GitHub.
+
+Steps 1, 2, 4, and 5 can all be accomplished using `git` from the command line, but this has a learning curve. An easier approach is to download the [GitHub desktop client](https://desktop.github.com/). Also, many code editors allow you to execute `git` commands from within the editor. See the section on **Advanced Usage** for further details.
+
+For a full tutorial on getting up and running with GitHub aimed at digital humanists, see the Programming Historian's [An Introduction to Version Control Using GitHub Desktop](https://programminghistorian.org/lessons/getting-started-with-github-desktop).
+
+## WE1S Workflow
+
+TBD.
