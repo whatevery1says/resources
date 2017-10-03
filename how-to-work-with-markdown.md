@@ -10,7 +10,9 @@ It is highly recommended to author documents in Markdown and then convert to oth
 
 ## How to Write Markdown
 
-There are _many_ options. A good place to start is simply by learning Markdown from a cheat sheet. The following websites are extremely useful.
+It is conventional to save files written in Markdown with the extension `.md`. Most editors will recognize these files as Markdown and will highlight the formatting to make the text more readable.
+
+There are _many_ options for writing Markdown. A good place to start is simply by learning Markdown from a cheat sheet. The following websites are extremely useful.
 
 * [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
 * [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
@@ -18,4 +20,16 @@ There are _many_ options. A good place to start is simply by learning Markdown f
 
 Note that there are several dialects of Markdown. Wherever possibly, GitHub-flavored Markdown should be used so that it renders nicely on the GitHub website.
 
-There are numerous WYSIWYG Markdown editors online, and you should experiment with them to get a feel for how Markdown renders as HTML. One of the best is [Dillinger](https://dillinger.io/).
+There are numerous WYSIWYG Markdown editors online, and you should experiment with them to get a feel for how Markdown renders as HTML. One of the best is [Dillinger](https://dillinger.io/). This allows you to edit Markdown and see the rendered text side by side, changing in real time.
+
+You can also use a code editor (e.g. Sublime Text, VS Code, Atom, and so on) to write Markdown. Most code editors come with plugins to allow you to write and preview Markdown. See the section on **Advanced Usage** for some of the amazing things you can do if you write Markdown using a code editor.
+
+## Converting from Other Formats
+
+Here are some websites for converting from other formats:
+
+* [Word-to-Markdown](https://word-to-markdown.herokuapp.com/)
+* [HTML-to-Markdown](https://domchristie.github.io/to-markdown/)
+* [Pandoc](https://pandoc.org/try/)
+
+Note that these sites will be more successful if the formatting of the original Word or HTML document is consistent and contains only formatting allowable in Markdown. You may have to hand edit the results afterwards.
