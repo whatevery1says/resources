@@ -56,4 +56,6 @@ For a full tutorial on getting up and running with GitHub aimed at digital human
 
 ## WE1S Workflow
 
-TBD.
+This is just a running list of ideas and notes:
+
+* The [Mytory Markdown Wordpress plugin](https://wordpress.org/plugins/mytory-markdown/) allows you to maintain a Markdown document on GitHub and provide a link to the `Raw` url in Wordpress posts and pages. With this, everything is stored in GitHub (I am not sure if content is also copied to the WP database). Theoretically, this could slow loading times (but would you notice with Wordpress) and content might not be available in the unlikely event that GitHub goes down. But it's worth exploring.
