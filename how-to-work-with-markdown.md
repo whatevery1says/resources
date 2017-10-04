@@ -59,3 +59,29 @@ For a full tutorial on getting up and running with GitHub aimed at digital human
 This is just a running list of ideas and notes:
 
 * The [Mytory Markdown Wordpress plugin](https://wordpress.org/plugins/mytory-markdown/) allows you to maintain a Markdown document on GitHub and provide a link to the `Raw` url in Wordpress posts and pages. With this, everything is stored in GitHub (I am not sure if content is also copied to the WP database). Theoretically, this could slow loading times (but would you notice with Wordpress) and content might not be available in the unlikely event that GitHub goes down. But it's worth exploring. This also assumes that all authoring takes place offline.
+
+## Word to Markdown to GitHub to Wordpress: A Workflow
+
+### Converting from Word to Markdown
+
+1. When authoring in Word, restrict formatting to the following:
+
+* Headings 1-5
+* Emphasis (italics)
+* Strong emphasis (bold)
+* Strikethrough
+
+1. Do use different fonts or font sizes, except if they are changed by Words heading styles.
+1. Do not use indentation or text justification unless it is created by Word's heading, list, or table functions.
+1. Make sure you use Word's bullet and numbering list functions.
+1. Keep tables very small and simple.
+1. Use as few images as possible.
+1. Avoid the use of footnotes.
+
+The last two require some explanation. It is possible to attach images to a Markdown file, but in converting from Word, they will be lost. So images will have to be added after conversion. Although some dialects of Markdown support footnotes, GitHub-flavored Markdown does not. There is a workaround using inline HTML, but it also generally needs to be implemented after the document is converted.
+
+## Advanced Usage
+
+* Code linting
+* Source control
+* Inline HTML
