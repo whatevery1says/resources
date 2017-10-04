@@ -62,7 +62,7 @@ This is just a running list of ideas and notes:
 
 ## Word to Markdown to GitHub to Wordpress: A Workflow
 
-### Converting from Word to Markdown
+### Advice for Authoring in Word
 
 1. When authoring in Word, restrict formatting to the following:
 
@@ -80,8 +80,38 @@ This is just a running list of ideas and notes:
 
 The last two require some explanation. It is possible to attach images to a Markdown file, but in converting from Word, they will be lost. So images will have to be added after conversion. Although some dialects of Markdown support footnotes, GitHub-flavored Markdown does not. There is a workaround using inline HTML, but it also generally needs to be implemented after the document is converted.
 
+### Converting Word to Markdown
+
+Save the Word file and then use an automated method to convert it to Markdown, such as [Word-to-Markdown](https://word-to-markdown.herokuapp.com/) or the [Writage](http://www.writage.com/) plugin for Word (Windows only). You can, of course, save the file as plain text and then change the extension to `.md`. Any way you do it, you will probably have to double check the results to make sure the Markdown is correct. You can do this using [Dillinger](https://dillinger.io/) or a code editor with Markdown preview.
+
+Note that images must be kept as separate files with links to them in the Markdown document. An image looks like this:
+
+```Markdown
+![My Logo](https://github.com/.../common/images/icon48.png "Logo Title Text")
+```
+
+This will be rendered as
+
+```HTML
+<img src="https://github.com/.../common/images/icon48.png" alt="My Logo" title="Logo Title Text">
+```
+
+Word probably does not supply values for `alt` and `title`, so you will need to add them. The `alt` text displays if the image link is broken, and the `title` text displays in a tooltip when you run your browser over the image. It is good web practice to provide values for `alt` and `title`, especially the former.
+
+When you are done with the conversion, save the new file with the `.md` extension.
+
+### Using Markdown on the WE1S Website
+
+In general, Markdown should only be used on the website for posts and pages. You can type Markdown directly in the web editor, and it will be converted to HTML for display. If you wish to edit offline, you can paste your Markdown from a text or code editor into the Wordpress web editor.
+
+Note that documents not meant for primary display as posts or pages on the website should not be handled this way. Instead, links should be created to documents in external locations. We are actively looking for other methods of passing Markdown stored on GitHub to Wordpress. See the next section.
+
+### Markdown Documents as Resources on GitHub
+
+
 ## Advanced Usage
 
 * Code linting
 * Source control
 * Inline HTML
+* Footnotes
