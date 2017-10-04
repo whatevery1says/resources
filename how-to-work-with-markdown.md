@@ -106,7 +106,11 @@ In general, Markdown should only be used on the website for posts and pages. You
 
 Note that documents not meant for primary display as posts or pages on the website should not be handled this way. Instead, links should be created to documents in external locations. We are actively looking for other methods of passing Markdown stored on GitHub to Wordpress. See the next section.
 
-### Markdown Documents as Resources on GitHub
+### Archiving Documents on GitHub
+
+The WE1S project has a `resources` repository on GitHub: [https://github.com/whatevery1says/resources](https://github.com/whatevery1says/resources). Documents in any format can be archived in the `resources` repository. For instance, PDF or Word documents can be pushed to GitHub and downloaded from there directly or by links from the WE1S website. Markdown files can also be deposited in the `resources` repository, and they will automatically be rendered as HTML. For some types of documents (this one, for instance), Markdown will be the preferred access format because the user can read them directly on GitHub. In other cases, a downloadable PDF may be preferred. Since PDFs are generated from Word or Markdown files, the source files may be stored in the repository for future editing before new PDF versions are created.
+
+Instructions for pushing files to GitHub:
 
 
 ## Advanced Usage
