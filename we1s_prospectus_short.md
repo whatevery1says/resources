@@ -148,7 +148,7 @@ The WE1S Virtual Workspace System is a virtual environment (runnable online from
 
 #### 5. Interpretation Protocol for Topic Models
 
-Because complex data-analysis sequences can have a “black box” effect, one of the needs of current _in silico_ science is not just to document technical workflows for reproducibility but also to make humanly understandable the steps in a workflow. The goal is to facilitate the interpretation of results.[<sup>7</sup>](#ftn7) Digital humanities research, of course, is rooted not just in data science but also long-standing traditions of humanistic hermeneutics, including the critical scrutiny of how humans “read” and “interpret” materials. Digital humanists thus carry the extra burden of needing to make visible the machine-to-human and human-to-human interpretive steps hidden in the interpretive process, steps involving how researchers read a topic model and how researchers communicate, discuss, and provide evidence for observations about topic models to reach credible conclusions. Yet there are currently no best practices in the digital humanities for explaining data workflow, let alone with attention to the act of human interpretation. 
+Because complex data-analysis sequences can have a “black box” effect, one of the needs of current _in silico_ science is not just to document technical workflows for reproducibility but also to make humanly understandable the steps in a workflow. The goal is to facilitate the interpretation of results.[<sup>7</sup>](#ftn7) Digital humanities research, of course, is rooted not just in data science but also long-standing traditions of humanistic hermeneutics, including the critical scrutiny of how humans “read” and “interpret” materials. Digital humanists thus carry the extra burden of needing to make visible the machine-to-human and human-to-human interpretive steps hidden in the interpretive process, steps involving how researchers read a topic model and how researchers communicate, discuss, and provide evidence for observations about topic models to reach credible conclusions. Yet there are currently no best practices in the digital humanities for explaining data workflow, let alone with attention to the act of human interpretation.
 
 As part of its technical methods, WE1S is developing a topic-model interpretation protocol that declares in understandable form (as part of a manifest workflow) step-by-step interactions between machine learning and researcher interpretation/collaboration (e.g., when in the process researchers convene to interpret a topic model; what outputs, visualizations, and secondary algorithmic products such as Principal Component Analysis or hierarchical clusterings are used to deduce groups of topics; how researchers discuss a topic model; and how topic models and interpretive acts are iterated). The goal is not to assert _the_ definitive topic-model interpretation process (because this will be different depending on the nature of a project, its materials, and its personnel), but to declare _a_ topic model interpretation process that can then serve as a model and be adapted, improved, and varied by the larger DH community. It may be that over time one or several kinds of digital-humanities data interpretation protocols will evolve as shared conventions.
 
@@ -156,39 +156,17 @@ While still in progress, the WE1S topic-model interpretation protocol is current
 
 ## <a id="_Toc494665702" name="_Toc494665702"></a><a id="_1op6umco4s0o" name="_1op6umco4s0o"></a>III. Plans for Expansion from Pilot Project
 
-### <a id="_Toc494665703" name="_Toc494665703"></a><a id="_go2s2tyl0rfl" name="_go2s2tyl0rfl"></a>a. Original Pilot Project
+### <a id="_Toc494665703" name="_Toc494665703"></a><a id="_go2s2tyl0rfl" name="_go2s2tyl0rfl"></a>a. Mellon-Funded Next Stage of Project
 
 WE1S has operated since 2013 as a pilot project. With funding from the Mellon Foundation, WE1S will greatly extend the scope and diversity of its sampled materials from public discourse; improve its research methods and technical implementation to enable more rapid and more flexible exploration of these materials; and produce analyses and other outcomes for its intended public, humanities, and digital humanities audiences.
 
-Specifically, WE1S’s plans are as follows:
-
-#### 1. Corpus Expansion
-
-WE1S will expand the range and representativeness of its primary corpus of contemporary journalistic publications (defined as newspapers, magazines, and radio/TV transcripts of news or talk shows available in English across multiple nations). While the criteria for representativeness and usefulness will evolve iteratively as the project team begins its research on potential sources, WE1S has initially identified two key areas for corpus expansion:
-
-* The first is the geographical and national scope of its corpus of materials: WE1S will investigate expanding the range of its sources by including materials from Anglophone newspapers located outside North America. Such newspapers include _The Times_, _The Sunday Times_, and _The Independent_ in the United Kingdom; _The Australian_ and _The Daily Telegraph_ in Australia; _The New Zealand Herald_ in New Zealand; and _The Times of India_ in India.
-* The second area for corpus expansion concerns what may be called the social scope of WE1S’s materials. An especially high-priority goal is to include sources that can allow WE1S to ask research questions about how the humanities are viewed by, or in relation to, different social groups (racial, ethnic, gender, immigrant, and age). This is a diversity aim that is organic to WE1S’s core research. Because both historical and contemporary anecdotal evidence suggests that particular groups channel themselves (or are channeled) into career choices that make the humanities a lesser priority during first-to-college or first-generation-immigrant stages in their social trajectory, WE1S hypothesizes that researching “what everyone says about the humanities” in particular groups can add meaningfully to society’s more common talking points about numbers of humanities majors, career goals, or the relation of the humanities to the sciences or business.
-
-In addition to expanding its primary corpus of materials as outlined above, WE1S plans to extend the range of research questions it can pose by collecting smaller “sub-corpora” of other kinds of sources that can be folded into, or separated from, its main corpus as needed for computational analysis.
-
-#### 2. Improvement of Research and Technical Methods
-
-Currently, WE1S’s research methods and their technological implementation are first-generation. To support the aim of flexibly and rapidly asking research questions about a larger, more diverse corpus of materials, WE1S plans to evolve its technological research environment. Specifically, WE1S will take up the technical tasks outlined below:
-
-* Improve methods for quick, iterable corpus assembly.
-* Extend search and analytical methods.
-* Improve interfaces for interpretive exploration of results.
-* Improve WE1S’s Workflow Management System in conjunction with the project’s Virtual Workspace System.
-* Develop a repository strategy for disseminating and sustaining the project’s data and technology.
-* Develop a public-facing front end for displaying and exploring the results of the project.
-
-### <a id="_Toc494665705" name="_Toc494665705"></a>c. Diversity and Inclusion
+### <a id="_Toc494665705" name="_Toc494665705"></a>b. Diversity and Inclusion
 
 i. In light of its theme, WE1S primarily understands diversity and inclusion to refer to facilitating the ability of underrepresented racial/ethnic groups―and also first-generation-to-college, immigrants, and others―to embrace the humanities in common with others so as to contribute to the full life of individuals, groups, educational and cultural institutions, and, ultimately, society. A core mission of WE1S’s plan for expanded research, therefore, is to acquire materials that facilitate understanding the complex relationship of underrepresented and other groups to the humanities. The aim is to position WE1S to ask such questions as: how do mainstream media position students and others from particular groups relative to the humanities? How do media articles addressed specifically to such groups compare with mainstream media? In what ways does public opinion about the very ideal of “diversity and inclusion” correlate with public opinion about the humanities?
 
 ii. Secondarily, WE1S understands diversity and inclusion to refer to facilitating the participation of underrepresented students (and also students such as Asian-Americans underrepresented in the humanities, as well as women underrepresented in technology) in its own project. Because WE1S engages in interdisciplinary humanities/technology research with a strong focus on social issues, an appropriate diversity aim is to include underrepresented students from many fields (humanities, STEM, and social science) in its research as part of their educational training. At UCSB, these summer research camps will be advertised to graduate-student research assistants from diverse student bases, including not just programs with strengths in the digital humanities but also in areas such as ethnic and gender studies bearing on the diversity aspect of WE1S’s research aims. At CSUN, a particularly important WE1S initiative is to create Summer Research Camps that parallel those held at UCSB but also work to increase campus expertise in the digital humanities, including among its diverse student population. To this end, the CSUN camps will also directly involve undergraduates.
 
-### <a id="_Toc494665706" name="_Toc494665706">f. Expected Outcomes and Benefits</a>
+### <a id="_Toc494665706" name="_Toc494665706">c. Expected Outcomes and Benefits</a>
 
 #### Expected Outcomes
 
