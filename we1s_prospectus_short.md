@@ -24,10 +24,9 @@
   * [e. Research Methods](#_Toc494665700)
   * [f. Technical Methods](#_Toc494665701)
 * [III. Plans for Expansion from Pilot Project](#_Toc494665702)
-  * [a. Original Pilot Project](#_Toc494665703)
-  * [b. Mellon-Funded Next Stage of Project](#_Toc494665704)
-  * [c. Diversity and Inclusion](#_Toc494665705)
-  * [d. Expected Outcomes and Benefits](#_Toc494665706)
+  * [a. Mellon-Funded Next Stage of Project](#_Toc494665703)
+  * [b. Diversity and Inclusion](#_Toc494665705)
+  * [c. Expected Outcomes and Benefits](#_Toc494665706)
 * [IV. Works & Tools Cited](#_Toc494665707)
 
 ## <a id="_Toc494665687" name="_Toc494665687">I. Fact Sheet</a>
