@@ -1,3 +1,9 @@
+---
+post_title: 'StackEdit Test'
+layout: post
+published: true
+---
+
 ## This is some Markdown.
 
 Here is some _formatted text_.
