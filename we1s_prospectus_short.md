@@ -11,6 +11,7 @@
 * [I. Fact Sheet](#_Toc494665687)
   * [Participating Institutions](#_Toc494665688)
   * [Team](#_Toc494665689)
+  * [Project Website](#_Toc594665689)
   * [Funding Support](#_Toc494665690)
   * [Timeline](#_Toc494665691)
   * [Main Humanities Research Goals](#_Toc494665692)
@@ -27,7 +28,6 @@
   * [a. Mellon-Funded Next Stage of Project](#_Toc494665703)
   * [b. Diversity and Inclusion](#_Toc494665705)
   * [c. Expected Outcomes and Benefits](#_Toc494665706)
-* [IV. Works & Tools Cited](#_Toc494665707)
 
 ## <a id="_Toc494665687" name="_Toc494665687">I. Fact Sheet</a>
 
@@ -46,6 +46,10 @@
 * _[To be recruited:]_ Two Postdoctoral Scholars/Lecturers (postdoctoral researchers who also teach some courses each year) for project years 2018-2019 and 2019-2020
 * _[To be recruited:]_ Graduate student project managers
 * _[To be recruited:]_ Graduate student and undergraduate research assistants, including those participating in WE1S’s “summer research camps”
+
+### <a id="_Toc594665689" name="_Toc494665689">Project Website</a>
+
+[http://we1s.ucsb.edu](http://we1s.ucsb.edu/).
 
 ### <a id="_Toc494665690" name="_Toc494665690">Funding Support</a>
 
@@ -67,7 +71,7 @@
 * Design and assemble a representative corpus (in this case, of public discourse on the humanities) with attention to principles of corpus “representativeness.”
 * Advance methods for open, reproducible data workflow in the digital humanities, including methods for
   * tracking the provenance and workflow of sources, tools, and processes;
-  * implementing workflows of data collection, preparation, analysis, and output workflows in chained series of executable (but customizable) data “notebooks” (Jupyter notebooks).
+  * implementing workflows of data collection, preparation, analysis, and output workflows in chained series of executable (but customizable) data “notebooks” ([Jupyter notebooks](http://jupyter.org/)).
 * Advance the sustainability of digital humanities workflows and outputs by using “containerized” (virtualized) data analysis platforms that can be distributed and be deposited in institutional or other repositories.
 
 ### <a id="_Toc494665694" name="_Toc494665694">Main Public Goals (addressed to the public or to humanities advocates addressing the public)</a>
@@ -84,7 +88,7 @@ Based at University of California, Santa Barbara (UCSB), with core collaborators
 
 ### <a id="_Toc494665697" name="_Toc494665697">b. Humanities Context</a>
 
-WE1S contributes to recent research responding to the perceived long-term decline of the humanities, including after the most recent “crisis” period touched off by the Great Recession of the late 2000s and early 2010s. Such research has been broad and vigorous. For example, many scholars have written books on the value and history of the humanities [<sup>1</sup>](#ftn1); the [Society for the History of the Humanities](http://www.historyofhumanities.org/) has started the History of Humanities journal to publish new historical and comparative research on the humanities; the innovative Humanities & Liberal Arts Assessment (HULA)](http://www.pz.harvard.edu/projects/humanities-liberal-arts-assessment-hula) project has studied and assessed the “implicit internal logics of humanistic craft” in order to surface the methods and values of the humanities; major scholarly associations and foundations have issued reports, white papers, and policy recommendations [<sup>2</sup>]("ftn2"); the American Academy of Arts & Science has created [Humanities Indicators](http://www.humanitiesindicators.org/) and [Academy Data Forum](https://www.amacad.org/content/research/dataForumList.aspx) to gather significant statistics; and “public humanities” initiatives and humanities advocacy initiatives have been active in communicating the value of the humanities to the public and its representatives in government and the media (_for examples of all of the above see section III, Works Cited_).
+WE1S contributes to recent research responding to the perceived long-term decline of the humanities, including after the most recent “crisis” period touched off by the Great Recession of the late 2000s and early 2010s. Such research has been broad and vigorous. For example, many scholars have written books on the value and history of the humanities [<sup>1</sup>](#ftn1); the [Society for the History of the Humanities](http://www.historyofhumanities.org/) has started the [History of Humanities journal](http://www.journals.uchicago.edu/toc/hoh/current) to publish new historical and comparative research on the humanities; the innovative Humanities & Liberal Arts Assessment (HULA)](http://www.pz.harvard.edu/projects/humanities-liberal-arts-assessment-hula) project has studied and assessed the “implicit internal logics of humanistic craft” in order to surface the methods and values of the humanities; major scholarly associations and foundations have issued reports, white papers, and policy recommendations [<sup>2</sup>]("ftn2"); the American Academy of Arts & Science has created [Humanities Indicators](http://www.humanitiesindicators.org/) and [Academy Data Forum](https://www.amacad.org/content/research/dataForumList.aspx) to gather significant statistics; and “public humanities” initiatives and humanities advocacy initiatives have been active in communicating the value of the humanities to the public and its representatives in government and the media (_for examples of all of the above see section III, Works Cited_).
 
 WE1S adds uniquely to this broader field of research and advocacy by using digital humanities methods―mainly topic modeling―to analyze representations of the humanities in large numbers of public materials, especially journalistic media. If the Humanities Indicators project provides statistical research on the state of the humanities, WE1S provides the other half of the picture: discourse research on how the humanities are articulated in public and at crossover points between the public and the academy.
 
@@ -111,7 +115,7 @@ _iii. For digital humanities scholars_, WE1S will contribute methods and tools (
 
 WE1S’s research starts with identifying and harvesting for analysis documents from journalistic sources (and in the future other sources in the public sphere) that include the phrases “humanities,” “liberal arts,” and (in the United Kingdom and Commonwealth nations, “the arts”). Text is “scraped” in plain-text form, “cleaned” and subjected to other pre-processing methods, and then converted into analytical data for machine learning processes such as topic modeling. To allow for null hypothesis testing, WE1S also gathers from its sources analytical data for a smaller “random” corpus of articles.
 
-The main computational method that WE1S applies to analyze its gathered materials is topic modeling (specifically, Latent Dirichlet Allocation [LDA] topic modeling as implemented in the standard MALLET toolkit [Machine Learning for Language Toolkit]). A leading method of machine-learning analysis, topic modeling discovers through statistical means the existence, relative weight, and distribution of “topics” across documents (where topics are represented as a probability model of correlated words often indicative of what a human might conceive as “themes”). Topic modeling can be particularly important for discovering areas of public discourse related to the humanities that are not colored by preconceived theses or expectations (e.g., about the “crisis” of the humanities).[<sup>4</sup>](#ftn4) Facilitating the interpretive exploration of topic models is WE1S’s use of the [dfr-browser](https://agoldst.github.io/dfr-browser/) topic-model visualization interface developed by Andrew Goldstone, which was chosen as optimal after WE1S conducted a comparative study of 14 topic-model interfaces.[<sup>5</sup>](#ftn5)
+The main computational method that WE1S applies to analyze its gathered materials is topic modeling (specifically, Latent Dirichlet Allocation [LDA] topic modeling as implemented in the standard [MALLET](http://mallet.cs.umass.edu/) toolkit [Machine Learning for Language Toolkit]). A leading method of machine-learning analysis, topic modeling discovers through statistical means the existence, relative weight, and distribution of “topics” across documents (where topics are represented as a probability model of correlated words often indicative of what a human might conceive as “themes”). Topic modeling can be particularly important for discovering areas of public discourse related to the humanities that are not colored by preconceived theses or expectations (e.g., about the “crisis” of the humanities).[<sup>4</sup>](#ftn4) Facilitating the interpretive exploration of topic models is WE1S’s use of the [dfr-browser](https://agoldst.github.io/dfr-browser/) topic-model visualization interface developed by Andrew Goldstone, which was chosen as optimal after WE1S conducted a comparative study of 14 topic-model interfaces.[<sup>5</sup>](#ftn5)
 
 In addition, WE1S will explore “word embedding” (word2vec) and text-classification analytical methods that have the potential to use the project’s collected data in ways that augment topic modeling.
 
@@ -189,174 +193,10 @@ Specific, concrete benefits for WE1S’s audiences include:
 * _For humanities scholars and administrators_, WE1S’s outcomes will not only facilitate their own participation in humanities advocacy (by widening and enriching the discourse of such advocacy in the ways described above) but also augment specific research, program-building and administrative, and public outreach missions. The project’s methods and tools will serve as a paradigm (and can be used “as is” or in adapted form) for researching the way other complex ideas that are like “the humanities” in having both narrow/sharply defined and broad/fuzzy senses behave in public discourse. WE1S will be able to assist in such activities as designing general education curricula, shaping agendas for humanities centers, or presenting a matriculation or commencement speech―all of which can benefit from WE1S’s research-backed identification of themes and the relations between themes. WE1S will provide an extended, enriched range of themes, arguments, examples, and other material to draw on in framing advocacy efforts on behalf of funding for the humanities, bringing new students into humanities majors, and showing the connection of the humanities to other educational fields and to other areas of social concern.
 * _For the digital humanities research community_, WE1S will provide a paradigm of open, shareable, and reproducible research adapted for the kinds of provenance tracking, analysis workflows, and self-reflective attention to interpretive method characteristic of humanities-oriented “cultural analytics.” The WE1S manifest framework, Workflow Management System, Virtual Workspace System, and topic model interpretation protocol will be disseminated so that they can be used or adapted by other projects.
 
-## <a id="_Toc494665707" name="_Toc494665707">IV. Works & Tools Cited</a>
-
-4Humanities.org. Home page. Accessed April 18, 2017. [http://4humanities.org](http://4humanities.org/).
-
-__________, “The Heart of the Matter Topic-Modeled (A Preliminary Experiment).” November 2, 2013. Accessed April 20, 2017. [http://4humanities.org/2013/11/the-heart-of-the-matter-topic-modeled-a-preliminary-experiment/](http://4humanities.org/2013/11/the-heart-of-the-matter-topic-modeled-a-preliminary-experiment/).
-
-__________. “What U.S. Politicians Say About the Humanities―A Data Set and Analysis.” March 1, 2016. Accessed April 20, 2017. [http://4humanities.org/4humanities-research-projects/what-u-s-politicians-say-about-the-humanities/](http://4humanities.org/4humanities-research-projects/what-u-s-politicians-say-about-the-humanities/).
-
-4Humanities.org. WhatEvery1Says (WE1S) Project. (See under WE1S.)
-
-Academy Data Forum. Home page, 2017. American Academy of Arts and Sciences. Accessed April 19, 2017. [https://www.amacad.org/content/research/dataForumList.aspx](https://www.amacad.org/content/research/dataForumList.aspx).
-
-Allen, Danielle, Chris Pupik Dean, Sheena Kang, and Maggie Schein. “Humanities Craftsmanship: A Study of 30 Years of Illinois Humanities Council Grant-making―A Report by the HULA Team. The Humanities and Liberal Arts Assessment Research Project, February 9, 2015. Accessed April 19, 2017. [http://www.pz.harvard.edu/resources/humanities-craftsmanship-a-study-of-30-years-of-illinois-humanities-council-grant-making](http://www.pz.harvard.edu/resources/humanities-craftsmanship-a-study-of-30-years-of-illinois-humanities-council-grant-making).
-
-Allison, Sarah. “Other People’s Data: Humanities Edition.” _Cultural Analytics_, December 8, 2016. Accessed April 20, 2017. [http://culturalanalytics.org/2016/12/other-peoples-data-humanities-edition/](http://culturalanalytics.org/2016/12/other-peoples-data-humanities-edition/).
-
-American Academy of Arts and Sciences Commission on the Humanities and Social Sciences. _The Heart of the Matter: The Humanities and Social Sciences for a Vibrant, Competitive, and Secure Nation_. Cambridge, MA: American Academy of Arts and Sciences, 2013. Accessed April 19, 2017. [http://www.humanitiescommission.org/_pdf/hss_report.pdf](http://www.humanitiescommission.org/_pdf/hss_report.pdf).
-
-Apache Taverna (Taverna Workflow System). Home page. Apache Software Foundation, 2014-2016. Accessed February 2, 2017. [https://taverna.incubator.apache.org/](https://taverna.incubator.apache.org/).
-
-Association of American Universities (AAU). Home page. Accessed April 21, 2017. [https://www.aau.edu/](https://www.aau.edu/).
-
-Bate, Jonathan. _The Public Value of the Humanities_. London: Bloomsbury, 2011.
-
-Belfiore, Eleonora, and Anna Upchurch, ed. _Humanities in the Twenty-First Century: Beyond Utility and Markets_. Basingstoke: Palgrave McMillan, 2013.
-
-Blei, David M. “Probabilistic Topic Models.” _Communications of the ACM_ 55.4 (April 2012): 77-84. [doi: 10.1145/2133806.2133826](http://dl.acm.org/citation.cfm?id=2133826).
-
-Bod, Rens. _A New History of the Humanities: The Search for Principles and Patterns from Antiquity to the Present_. Oxford University Press, 2013.
-
-de Bolla, Peter. _The Architecture of Concepts: The Historical Formation of Human Rights_. New York: Fordham University Press, 2013.
-
-California State University, Northridge (CSUN). “Diversity Initiatives at California State University Northridge.” N. d. Accessed April 21, 2017. [http://www.csun.edu/sites/default/files/CSUN%20Diversity%20Initiatives.pdf](http://www.csun.edu/sites/default/files/CSUN%20Diversity%20Initiatives.pdf).
-
-__________. HSI Pathways to the Professoriate. Home page, n. d. Accessed April 21, 2017. [http://www.csun.edu/humanities/pathways-professoriate](http://www.csun.edu/humanities/pathways-professoriate).
-
-Chronicling America: Historic American Newspapers. Home page, n. d. Library of Congress. Accessed April 20, 2017. [http://chroniclingamerica.loc.gov/](http://chroniclingamerica.loc.gov/).
-
-Clawson, James. “Who’s Afraid of Topic Modeling? Proposing a Collaborative Workflow (with Virginia Woolf).” jmclawson.com. Accessed April 20, 2017. [http://jmclawson.com/topickit/Chicago-pdf.pdf](http://jmclawson.com/topickit/Chicago-pdf.pdf).
-
-Congress.gov. Home page, n. d. Library of Congress. Accessed April 20, 2017. [https://www.congress.gov/](https://www.congress.gov/).
-
-_Cultural Analytics_ (journal). “About CA.” Accessed March 20, 2017. [http://culturalanalytics.org/about/about-ca/](http://culturalanalytics.org/about/about-ca/).
-
-dfr-browser. (See Goldstone, Andrew.)
-
-Docker. Home page, 2017. Docker, Inc. Accessed April 30, 2017. [https://www.docker.com/](https://www.docker.com/).
-
-Fedora. Home page, n. d. DuraSpace. Accessed April 30, 2017. [http://fedorarepository.org/](http://fedorarepository.org/).
-
-Goldstone, Andrew. dfr-browser, v. 0.8a. Home page, June 8, 2016. Accessed March 22, 2017. [http://agoldst.github.io/dfr-browser/](http://agoldst.github.io/dfr-browser/).
-
-Harpham, Geoffrey Galt. _The Humanities and the Dream of America_. Chicago: University of Chicago Press, 2011.
-
-HathiTrust Digital Library. “Non-Consumptive Use Research Policy.” February 20, 2017. Accessed May 27, 2017. [https://www.hathitrust.org/htrc_ncup](https://www.hathitrust.org/htrc_ncup).
-
-Hispanic Association of Colleges and Universities (HACU). “HACU Member Hispanic-Serving Institutions (HSIs).” N. d. Accessed April 21, 2017. [https://www.hacu.net/assnfe/CompanyDirectory.asp?STYLE=2&COMPANY_TYPE=1%2C5](https://www.hacu.net/assnfe/CompanyDirectory.asp?STYLE=2&COMPANY_TYPE=1%2C5).
-
-__________. “Hispanic-Serving Institution Definitions.” N. d. Accessed April 21, 2017. [http://www.hacu.net/hacu/HSI_Definition.asp](http://www.hacu.net/hacu/HSI_Definition.asp).
-
-Hispanic Serving Institutions (HSI). See above under Hispanic Association of Colleges and Universities (HACU), “HACU Member Hispanic-Serving Institutions (HSIs)” and “Hispanic-Serving Institution Definitions.”
-
-_History of Humanities_ (journal). Edited by Rens Bod, Julia Kursell, Jaap Maat, Thijs Weststeijn. University of Chicago Press. Available online at: [http://www.journals.uchicago.edu/toc/hoh/current](http://www.journals.uchicago.edu/toc/hoh/current).
-
-HathiTrust Research Center. Home page, n. d. Accessed April 18, 2017. [https://analytics.hathitrust.org/](https://analytics.hathitrust.org/).
-
-Humanities and Liberal Arts Assessment Project (HULA). Home page, 2016. Harvard Graduate School of Education. Accessed April 19, 2017. [http://www.pz.harvard.edu/projects/humanities-liberal-arts-assessment-hula](http://www.pz.harvard.edu/projects/humanities-liberal-arts-assessment-hula).
-
-Humanities Commons. Home page, 2016. Accessed April 30, 2017. [https://hcommons.org/](https://hcommons.org/).
-
-Humanities Indicators. Home page, 2016. American Academy of Arts and Sciences. Accessed April 18, 2017. [http://www.humanitiesindicators.org/](http://www.humanitiesindicators.org/).
-
-Hutner, Gordon, and Feisal G. Mohamed, ed. _A New Deal for the Humanities: Liberal Arts and the Future of Public Higher Education_. New Brunswick, NJ: Rutgers University Press, 2016.
-
-Hypothes.is. Home page, n. d. Accessed April 20, 2017. [https://hypothes.is/](https://hypothes.is/).
-
-Gil, Yolanda, and Daniel Garijo. “Towards Automating Data Narratives.” _Proceedings of the Twenty-Second ACM International Conference on Intelligent User Interfaces, Limassol, Cyprus, February 2017_. ACM, 2017. [doi: 10.1145/3025171.3025193](http://dx.doi.org/10.1145/3025171.3025193).
-
-GitHub. Home page. Github, Inc., 2017. Accessed January 30, 2017. [https://github.com/](https://github.com/).
-
-International Image Interoperability Framework (IIIF). Home page, n. d. Accessed April 19, 2017. [http://iiif.io/#plug-%E2%80%99n%E2%80%99-play-software](http://iiif.io/#plug-%E2%80%99n%E2%80%99-play-software).
-
-JSTOR. Home page, n. d. ITHAKA. Accessed April 20, 2017. [https://www.jstor.org/](https://www.jstor.org/).
-
-JSTOR Text Analyzer, beta version. Home page, n. d. JSTOR / ITHAKA. Accessed April 20, 2017. [https://www.jstor.org/analyze/](https://www.jstor.org/analyze/).
-
-Jupyter Notebooks. (See Project Jupyter.)
-
-Kabaservice, Geoffrey. “The Birth of a New Institution: How Two Yale presidents and Their Admissions Directors Tore Up the “Old Blueprint” to Create a Modern Yale.” Yale Alumni Magazine, December 1999. [http://archives.yalealumnimagazine.com/issues/99_12/admissions.html](http://archives.yalealumnimagazine.com/issues/99_12/admissions.html).
-
-Kepler [computer software], v. 2.5. Home page. N. d. Accessed February 2, 2017. [https://kepler-project.org/](https://kepler-project.org/).
-
-Lexomics Project. Home page, n. d. Wheaton College. Accessed April 20, 2017. [http://wheatoncollege.edu/lexomics/](http://wheatoncollege.edu/lexomics/).
-
-Lexos, v. 3.0. Home page. Lexomics Research Group, Wheaton College. Accessed January 14, 2017. [http://lexos.wheatoncollege.edu/](http://lexos.wheatoncollege.edu/).
-
-MALLET (Machine learning for Language Toolkit). (See McCallum, Andrew Kachites.)
-
-McCallum, Andrew Kachites. MALLET (Machine Learning for Language Toolkit). Home page, 2002. Accessed May 28, 2017. [http://mallet.cs.umass.edu](http://mallet.cs.umass.edu/).
-
-Mathae, Katherine Bailey, and Catherine Langrehr Birzer, ed. _Reinvigorating the Humanities: Enhancing Research and Education on Campus and Beyond_. New York/Washington, D. C.: American Association of Universities, 2004. Accessed April 19, 2017. [https://eric.ed.gov/?id=ED505820](https://eric.ed.gov/?id=ED505820).
-
-Meandre. Home page, n. d. Accessed April 18, 2017. [http://www.seasr.org/meandre/](http://www.seasr.org/meandre/).
-
-Mohr, John, and Petko Bogdanov. “Introduction–Topic Models: What They Are and Why They Matter.” _Poetics_ 41.6 (2013): 545-769. Accessed April 18, 2017. [http://www.sciencedirect.com/science/article/pii/S0304422X13000685](http://www.sciencedirect.com/science/article/pii/S0304422X13000685).
-
-National Humanities Alliance. Home page, 2015. Accessed April 19, 2017. [http://www.nhalliance.org/](http://www.nhalliance.org/).
-
-_New York Times_. “Top Colleges Doing the Most for the American Dream.” May 25, 2017. Accessed June 4, 2017. [https://www.nytimes.com/interactive/2017/05/25/sunday-review/opinion-pell-table.html](https://www.nytimes.com/interactive/2017/05/25/sunday-review/opinion-pell-table.html).
-
-Nussbaum, Martha C. _Not for Profit: Why Democracy Needs the Humanities_. Princeton, NJ: Princeton University Press, 2016.
-
-Open Science Framework. Home page, n. d. Center for Open Science. Accessed April 19, 2017. [https://osf.io/](https://osf.io/).
-
-Project Jupyter (Jupyter Notebooks). Home page, April 13, 2017. Accessed April 19, 2017. [http://jupyter.org/](http://jupyter.org/).
-
-ProQuest. Content databases including (in various overlapping packagings) News & Newspapers, Historical Newspapers, Ethnic NewsWatch, Black Newspapers, U.S. Hispanic Newsstand, and GenderWatch accessible through institutional subscriptionSee Proquest, “News & Newspapers,” n. d. Accessed April 20, 2017. [http://www.proquest.com/libraries/academic/news-newspapers/](http://www.proquest.com/libraries/academic/news-newspapers/).
-
-PROV. (See W3C [World Wide Web Consortium]. “PROV-Overview.” April 30, 2013. Accessed February 2, 2017. [https://www.w3.org/TR/prov-overview/](https://www.w3.org/TR/prov-overview/).)
-
-R-Shief. Home page, 2016. Accessed September 11, 2016. [http://r-shief.org/](http://r-shief.org/).
-
-Rockwell, Geoffrey. “2016 Chicago Colloquium on Digital Humanities and Computer Science” (notes on the conference). _philosophi.ca_ (blog). Accessed April 20, 2017. [http://philosophi.ca/pmwiki.php/Main/2016ChicagoColloquiumOnDigitalHumanitiesAndComputerScience](http://philosophi.ca/pmwiki.php/Main/2016ChicagoColloquiumOnDigitalHumanitiesAndComputerScience).
-
-Schiffrin, Anya, and Ethan Zuckerman. “Can We Measure Media Impact? Surveying the Field.” _Stanford Social Innovation Review_, Fall 2015. Accessed June 1, 2017. [https://ssir.org/articles/entry/can_we_measure_media_impact_surveying_the_field](https://ssir.org/articles/entry/can_we_measure_media_impact_surveying_the_field).
-
-SEASR (Software Environment for the Advancement of Scholarly Research). Home page, n. d. Accessed April 18, 2017. [http://www.seasr.org/](http://www.seasr.org/).
-
-Small, Helen. _The Value of the Humanities_. Oxford: Oxford University Press, 2013.
-
-Smith, Sidonie Ann. _Manifesto for the Humanities: Transforming Doctoral Education in Good Enough Times_. Ann Arbor: University of Michigan Press, 2016.
-
-Society for the History of the Humanities. Home page, 2017.Accessed April 19, 2017. [http://www.historyofhumanities.org/](http://www.historyofhumanities.org/).
-
-Sunlight Foundation. Home page, n. d. Accessed April 20, 2017. [https://sunlightfoundation.com/](https://sunlightfoundation.com/).
-
-Text Encoding Initiative (TEI). Home page, July 19, 2016. Accessed April 19, 2017. [http://www.tei-c.org/index.xml](http://www.tei-c.org/index.xml).
-
-Ubois, Smiljana Antonijievic, and Ellysa Stern Cahoy. “Supporting Humanists’ Digital Workflow.” (See notes on talk by Rockwell.)
-
-Underwood, Ted. “Topic Modeling Made Just Simple Enough.” _The Stone and the Shell_ (blog), April 7, 2012. Accessed February 15, 2017. [http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/](http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/).
-
-University of Miami. _Fact Book 2016-17 (Fall 2016 Fact Book)_. 2017. University of Miami. Accessed April 21, 2017. [http://www.miami.edu/index.php/Fact_Book_2016-2017](http://www.miami.edu/index.php/Fact_Book_2016-2017).
-
-U.S. Department of Education. “Developing Hispanic-Serving Institutions Program - Title V.” N. d. Accessed April 21, 2017. [https://ed.gov/programs/idueshsi/index.html?src=rt](https://ed.gov/programs/idueshsi/index.html?src=rt).
-
-U.S. Government Publishing Office. Home page, n. d. Accessed April 20, 2017. [https://www.gpo.gov/](https://www.gpo.gov/).
-
-WE1S (WhatEvery1Says). Home page, 2017. [http://we1s.ucsb.edu](http://we1s.ucsb.edu/).
-
-__________. Project Developers’ Web site. [http://4humwhatevery1says.pbworks.com](http://4humwhatevery1says.pbworks.com/). (Current synopsis of project presented on a public-facing Web site: [http://4humanities.org/category/whatevery1says/](http://4humanities.org/category/whatevery1says/)).
-
-__________. “How Public Media in the US and UK Compare in Their Terminology for the Humanities.” August 3, 2015. Accessed May 27, 2017. [http://4humwhatevery1says.pbworks.com/w/page/98623971/How%20Public%20Media%20in%20the%20US%20and%20UK%20Compare%20in%20Their%20Terminology%20For%20the%20Humanities](http://4humwhatevery1says.pbworks.com/w/page/98623971/How%20Public%20Media%20in%20the%20US%20and%20UK%20Compare%20in%20Their%20Terminology%20For%20the%20Humanities).
-
-__________. Making the Humanities Public (undergraduate collaborative research group project). Home page, December 18, 2016. Accessed April 21, 2017. [http://liucrgs.pbworks.com](http://liucrgs.pbworks.com/).
-
-__________. “Topic Modeling Systems and Interfaces.” November 12, 2016. Accessed April 20, 2017. [http://4humwhatevery1says.pbworks.com/w/page/104256241/Topic%20Modeling%20Systems%20and%20Interfaces](http://4humwhatevery1says.pbworks.com/w/page/104256241/Topic%20Modeling%20Systems%20and%20Interfaces).
-
-Whitehouse.gov (The White House). Home page, n. d. Accessed April 20, 2017. [https://www.whitehouse.gov/](https://www.whitehouse.gov/).
-
-Wings. Home page. May 8,2016. Accessed February 2, 2017. [http://www.wings-workflows.org/](http://www.wings-workflows.org/).
-
-Yang, Henry. “A Message on Diversity from Chancellor Henry T. Yang.” University of California, n. d. Accessed April 10, 2017. [http://diversity.evc.ucsb.edu/message.from.the.chancellor/](http://diversity.evc.ucsb.edu/message.from.the.chancellor/).
-
 * * *
 
 <a name="ftn1"></a>
-[<sup>1</sup>](#_ftn1) These include books by Bate, Belfiore and Upchurch, Bod, Brooks, Harpham, Hutner and Mohamed, Nussbaum, Small, and Smith.
+[<sup>1</sup>](#_ftn1) These include books by Bate, Jonathan. _The Public Value of the Humanities_. London: Bloomsbury, 2011; Belfiore, Eleonora, and Anna Upchurch, ed. _Humanities in the Twenty-First Century: Beyond Utility and Markets_. Basingstoke: Palgrave McMillan, 2013; Bod, Rens. _A New History of the Humanities: The Search for Principles and Patterns from Antiquity to the Present_. Oxford University Press, 2013; Brooks, Harpham, Geoffrey Galt. _The Humanities and the Dream of America_. Chicago: University of Chicago Press, 2011.; Hutner, Gordon, and Feisal G. Mohamed, ed. _A New Deal for the Humanities: Liberal Arts and the Future of Public Higher Education_. New Brunswick, NJ: Rutgers University Press, 2016.
 
 <a name="ftn2"></a>
 [<sup>2</sup>](#_ftn2) These include the American Association of University’s [_Reinvigorating the Humanities_](https://eric.ed.gov/?id=ED505820) (Mathae and Birzer, 2004) and the American Academy of Arts and Science Commission on the Humanities and Social Science’s [_Reinvigorating the Humanities_](https://eric.ed.gov/?id=ED505820) (2013). Other major reports on the humanities are listed under [“Resources”](http://www.humanitiescommission.org/AboutHumanitiesSocialSciences/resources.aspx) on the site of the Commission on the Humanities and Social Science.
@@ -365,13 +205,13 @@ Yang, Henry. “A Message on Diversity from Chancellor Henry T. Yang.” Univers
 [<sup>3</sup>](#_ftn3) [Jupyter notebooks](http://jupyter.org/) (previously known as “iPython notebooks”) are documents stored in the JSON format that can not only narrate data processing steps but run actual code in step-by-step modules.
 
 <a name="ftn4"></a>
-[<sup>4</sup>](#_ftn4) For effective introductions to topic modeling written for scholars in the humanities and social sciences, respectively, see Underwood, and Mohr & Bogdanov. For an introduction intended for a general scientific audience by one of its inventors see Blei.
+[<sup>4</sup>](#_ftn4) For effective introductions to topic modeling written for scholars in the humanities and social sciences, respectively, see Underwood, Ted. “Topic Modeling Made Just Simple Enough.” _The Stone and the Shell_ (blog), April 7, 2012. Accessed February 15, 2017, [http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/](http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/), and Mohr, John, and Petko Bogdanov. “Introduction–Topic Models: What They Are and Why They Matter.” _Poetics_ 41.6 (2013): 545-769. Accessed April 18, 2017,  [http://www.sciencedirect.com/science/article/pii/S0304422X13000685](http://www.sciencedirect.com/science/article/pii/S0304422X13000685). For an introduction intended for a general scientific audience by one of its inventors see Blei, David M. “Probabilistic Topic Models.” _Communications of the ACM_ 55.4 (April 2012): 77-84. [doi: 10.1145/2133806.2133826](http://dl.acm.org/citation.cfm?id=2133826).
 
 <a name="ftn5"></a>
-[<sup>5</sup>](#_ftn5) See WE1S’s comparative study of [“Topic Modeling Systems and Interfaces.”](http://4humwhatevery1says.pbworks.com/w/page/104256241/Research%20on%20Topic%20Modeling) WE1S adapted Goldstone’s dfr-browser, which is open source under the MIT license, with his assistance.
+[<sup>5</sup>](#_ftn5) See WE1S’s comparative study of [“Topic Modeling Systems and Interfaces”](http://4humwhatevery1says.pbworks.com/w/page/104256241/Research%20on%20Topic%20Modeling).  WE1S adapted Goldstone’s dfr-browser ([http://agoldst.github.io/dfr-browser/](http://agoldst.github.io/dfr-browser/)), which is open source under the MIT license, with his assistance.
 
 <a name="ftn6"></a>
 [<sup>6</sup>](#_ftn6) Documentation of the WE1S manifest schema version 1.0 is available at [https://github.com/whatevery1says/manifest/blob/master/we1s-manifest-schema-1.1.md](https://github.com/whatevery1says/manifest/blob/master/we1s-manifest-schema-1.1.md).
 
 <a name="ftn7"></a>
-[<sup>7</sup>](#_ftn7) For example, a recent paper by Yolanda Gil and Daniel Garijo titled “Towards Automating Data Narratives” provides proof-of-concept for the automatic creation of prose “narratives” of data workflows from the steps recorded in the Wings workflow system.
+[<sup>7</sup>](#_ftn7) For example, a recent paper by Yolanda Gil and Daniel Garijo provides proof-of-concept for the automatic creation of prose “narratives” of data workflows from the steps recorded in the [Wings](http://www.wings-workflows.org/) workflow system. See Gil, Yolanda, and Daniel Garijo. “Towards Automating Data Narratives.” _Proceedings of the Twenty-Second ACM International Conference on Intelligent User Interfaces, Limassol, Cyprus, February 2017_. ACM, 2017. [doi: 10.1145/3025171.3025193](http://dx.doi.org/10.1145/3025171.3025193).
