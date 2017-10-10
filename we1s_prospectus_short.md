@@ -4,7 +4,7 @@
 
 ## A Prospectus
 
-### _――Alan Liu, Jeremy Douglass, Scott Kleinman, and Lindsay Thomas (October 1, 2017)_
+### _――Alan Liu, Jeremy Douglass, Scott Kleinman, and Lindsay Thomas (October 10, 2017)_
 
 ## Table of Contents
 
