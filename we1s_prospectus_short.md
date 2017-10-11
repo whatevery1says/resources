@@ -7,7 +7,7 @@
 ## How to Cite This Document
 WhatEvery1Says Project. "The WhatEvery1Says (WE1S) Project: A Prospectus." 10 Oct. 2017. [http://we1s.ucsb.edu/we1s-prospectus/](http://we1s.ucsb.edu/we1s-prospectus/).
 
-This document is also available as a [printable PDF](#).
+This document is also available as a [printable PDF](http://we1s.ucsb.edu/wp-content/uploads/we1s_prospectus.pdf).
 
 ## Table of Contents
 
