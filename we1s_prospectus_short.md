@@ -5,7 +5,7 @@
 ### _――Alan Liu, Jeremy Douglass, Scott Kleinman, and Lindsay Thomas (October 10, 2017)_
 
 ## How to Cite This Document
-WhatEver1Says Project. "The WhatEvery1Says (WE1S) Project: A Prospectus." 10 Oct. 2017. [http://we1s.ucsb.edu/we1s-prospectus/](http://we1s.ucsb.edu/we1s-prospectus/).
+WhatEvery1Says Project. "The WhatEvery1Says (WE1S) Project: A Prospectus." 10 Oct. 2017. [http://we1s.ucsb.edu/we1s-prospectus/](http://we1s.ucsb.edu/we1s-prospectus/).
 
 This document is also available as a [printable PDF](#).
 
@@ -31,8 +31,6 @@ This document is also available as a [printable PDF](#).
   * [a. Mellon-Funded Next Stage of Project](#_Toc494665703)
   * [b. Diversity and Inclusion](#_Toc494665705)
   * [c. Expected Outcomes and Benefits](#_Toc494665706)
-  
-_Cite this document:_ WhatEvery1Says Project. "The WhatEvery1Says (WE1S) Project: A Prospectus." 10 Oct. 2017. [http://we1s.ucsb.edu/we1s-prospectus/](http://we1s.ucsb.edu/we1s-prospectus/)
 
 ## <a id="_Toc494665687" name="_Toc494665687">I. Fact Sheet</a>
 
@@ -54,7 +52,7 @@ _Cite this document:_ WhatEvery1Says Project. "The WhatEvery1Says (WE1S) Project
 
 ### <a id="_Toc594665689" name="_Toc494665689">Project Website</a>
 
-[http://we1s.ucsb.edu](http://we1s.ucsb.edu/).
+[http://we1s.ucsb.edu](http://we1s.ucsb.edu/)
 
 ### <a id="_Toc494665690" name="_Toc494665690">Funding Support</a>
 
