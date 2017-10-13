@@ -43,4 +43,4 @@ Most linters will enforce a rule that a Markdown document cannot contain inline 
 
 All resources other than blog posts and some web content should be stored in the GitHub `whatevery1says/resources` repo. It is possible that we should create a parallel `development_resources` repo for internal documents, especially drafts and Word documents from which PDFs are created. Within the `resources` repo, there can be subfolders indicating the nature of the documents: reports, guidelines, and so on. No taxonomy is currently prescribed.
 
-At the level of the individual document, we face challenges: assigning descriptive filenames and storing assets. I am considering whether it is possible to adopt the conventions of the [Frictionless Data](http://frictionlessdata.io/) specification to address these issues.
+At the level of the individual document, we face challenges: assigning descriptive filenames and storing assets. I am considering whether it is possible to adopt the conventions of the manifest schema or the [Frictionless Data](http://frictionlessdata.io/) specification to address these issues.
