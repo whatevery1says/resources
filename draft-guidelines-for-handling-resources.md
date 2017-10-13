@@ -19,7 +19,7 @@ The [StackEdit](https://stackedit.io/) editor is probably is probably the most a
 
 Like blog posts, some page material on the website may not be appropriate to archive as a "resource". In this case, the instructions for blog posts should be followed. Otherwise, the conent should be authored in Markdown using [StackEdit](https://stackedit.io/) or a code editor. This will encourage simple, consistent formatting and make it easy to convert the text to other formats. More advanced users should be encouraged to author text in a code editor that employs linting (see below under **Markdown Linting and Inline HTML**).
 
-For material intended only for the website, the content can be pasted directly into the WP text editor. However, most resources should be archived on GitHub. The best workflow will be to push the content to GitHub and then copy and paste the Markdown from there. It is possible to sync WP and GitHub content, but the process is clunky and may not be worth it at this stage. If material published to the web is updated on GitHub, it should be part of the workflow to paste the new content into WP and update the WP page. 
+For material intended only for the website, the content can be pasted directly into the WP text editor. However, most resources should be archived on GitHub. The best workflow will be to push the content to GitHub and then copy and paste the Markdown from there. It is possible to sync WP and GitHub content, but the process is clunky and may not be worth it at this stage. If material published to the web is updated on GitHub, it should be part of the workflow to paste the new content into WP and update the WP page.
 
 Non-textual assets (e.g. images) should be saved separately and archived on GitHub. The urls used to embed these assets in the web pages should be to the files archived on GitHub, not to the WP media library.
 
@@ -31,7 +31,7 @@ Conversion to Markdown to Word can be done by hand, but [Pandoc](http://pandoc.o
 
 Images can be embedded in Word and PDF files, but the originals should also be archived on GitHub.
 
-In general, the Word files used to generate PDFs should be saved as "drafts". Minor changes to the formatting can then be made to the Word file and new PDFs generated. If the Word file is based on an original Markdown file, care should be taken to ensure that all changes to the text are made in both files. If there are drastic changes, only the Markdown should be edited, and the Word file should be regenerated based on the new copy. 
+In general, the Word files used to generate PDFs should be saved as "drafts". Minor changes to the formatting can then be made to the Word file and new PDFs generated. If the Word file is based on an original Markdown file, care should be taken to ensure that all changes to the text are made in both files. If there are drastic changes, only the Markdown should be edited, and the Word file should be regenerated based on the new copy.
 
 ## Markdown Linting and Inline HTML
 
