@@ -1,0 +1,7 @@
+{
+  "name": "we1s_prospectus",
+  "title": "WE1S Prospectus",
+  "resources": [{
+    "path": "we1s_prospectus.md"
+  }]
+}
