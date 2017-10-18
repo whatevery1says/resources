@@ -14,13 +14,13 @@ There are _many_ options for writing Markdown. A good place to start is simply b
 * [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [https://en.wikipedia.org/wiki/Markdown](https://en.wikipedia.org/wiki/Markdown)
 
-**Note that there are several dialects of Markdown. Wherever possibly, GitHub-flavored Markdown should be used so that it renders nicely on the GitHub website.**
+**Note that there are several dialects of Markdown. Wherever possible, care should be taken that Markdown conforms to the rendering requirements of the [GitHub-Flavored Markdown spec](https://github.github.com/gfm/). so that it renders nicely on the GitHub website.**
 
 ### Online Editors
 
 There are numerous WYSIWYG Markdown editors online, and you should experiment with them to get a feel for how Markdown renders as HTML. One of the best is [StackEdit](https://stackedit.io/). This allows you to edit Markdown with a side-by-side preview of the text rendered in HTML that changes in real time.
 
-**Note: Most online editors do not enforce GitHub-Flavored Markdown standards. As a result, text that displays correctly in the online editor may not do so on GitHub. The differences are minor and generally easily corrected.**
+**Note: Most online editors do not enforce GitHub-Flavored Markdown standards. As a result, text that displays correctly in the online editor may not do so on GitHub. The differences are minor and generally easily corrected. For instance, the Markdown `#Heading1` will display as HTML `<h1>Heading1</h1>` in StackEdit, but not on GitHub.**
 
 ### Code Editors
 
@@ -32,11 +32,11 @@ It is possible, but not recommended, to edit Markdown files in Microsoft Word. I
 
 ## Markdown on the WE1S Website
 
-The WE1S website uses the Jetpack plugin to handle text written in Markdown. You can write your pages and posts directly in Markdown format in the web editor. Wordpress will automatically convert it to HTML when you save, and the HTML is displayed on the public website. Wordpress stores both the rendered HTML and the original Markdown (in the `filtered_content` column of the database table). It is recommended that you author your text in a code editor or an online Markdown editor similar to [StackEdit](https://stackedit.io/) and then paste the Markdown into the Wordpress code editor. For further information, see the [Draft Guidelines for Handling Resources](draft-guidelines-for-handling-resources.md).
+The WE1S website uses the Jetpack plugin to handle text written in Markdown. You can write your pages and posts directly in Markdown format in the web editor. Wordpress will automatically convert it to HTML when you save, and the HTML is displayed on the public website. Wordpress stores both the rendered HTML and the original Markdown (in the `filtered_content` column of the database table). It is recommended that you author your text in a code editor or an online Markdown editor similar to [StackEdit](https://stackedit.io/) and then paste the Markdown into the Wordpress code editor. For further information, see the [Guidelines for Handling Resources](https://github.com/whatevery1says/resources/blob/master/guidelines-for-handling-resources/guidelines-for-handling-resources.md).
 
 ## Markdown on GitHub
 
-GitHub is a cloud-based service that provides repositories for code and documents. It also provides a wiki and discussion forum (called "Issues") for each repository. Any Markdown document deposited in GitHub is automatically rendered in beautiful HTML on the GitHub website. The [document you are reading](https://github.com/whatevery1says/resources/blob/master/how-to-work-with-markdown.md) is an example. If you wish to see the original Markdown, you can click the [`Raw`](https://github.com/whatevery1says/resources/raw/master/how-to-work-with-markdown.md) button available on any GitHub page.
+GitHub is a cloud-based service that provides repositories for code and documents. It also provides a wiki and discussion forum (called "Issues") for each repository. Any Markdown document deposited in GitHub is automatically rendered in beautiful HTML on the GitHub website. The [document you are reading](https://github.com/whatevery1says/resources/blob/master/how-to-work-with-markdown/how-to-work-with-markdown.md) is an example. If you wish to see the original Markdown, you can click the [`Raw`](https://github.com/whatevery1says/resources/raw/master/how-to-work-with-markdown/how-to-work-with-markdown.md) button available on any GitHub page.
 
 GitHub uses the `git` version control system to keep track of changes made to files. This is not the place for a full git/GitHub tutorial, but the basic workflow is follows:
 
@@ -50,7 +50,7 @@ Steps 1, 2, 4, and 5 can all be accomplished using `git` from the command line, 
 
 For a full tutorial on getting up and running with GitHub aimed at digital humanists, see the Programming Historian's [An Introduction to Version Control Using GitHub Desktop](https://programminghistorian.org/lessons/getting-started-with-github-desktop).
 
-For further information on the place of GitHub in the WE1S workflow, see the [Draft Guidelines for Handling Resources](draft-guidelines-for-handling-resources.md).
+For further information on the place of GitHub in the WE1S workflow, see the [Guidelines for Handling Resources](https://github.com/whatevery1says/resources/blob/master/guidelines-for-handling-resources/guidelines-for-handling-resources.md).
 
 ## Handling Images
 

@@ -83,6 +83,7 @@ resources
 
 The basic `datapackage.json` file should look like the following:
 
+```json
 {
   "name": "a-unique-human-readable-and-url-usable-identifier",
   "title": "A nice title",
@@ -94,5 +95,6 @@ The basic `datapackage.json` file should look like the following:
       "path": "relative-path-to-other-version-file", // e.g. pdf/report1.pdf
     }]
 }
+```
 
 The value of the `name` property should be the same as the container folder. Be sure not to confuse the Frictionless Data `resources` property with the WE1S `resources` repo. Values for the `resources` property should be paths to assets or different versions of the document. Other metadata allowable in the [Frictionless Data spec](https://specs.frictionlessdata.io/data-package/) may be included but is not required by WE1S.
