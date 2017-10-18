@@ -9,7 +9,7 @@
 * [Other Resources](#_other-resources)
 * [Storage of Resources](#_storage-of-resources)
 
-<a id="_definition-of-a-resource" name="_definition-of-a-resource">## Definition of a Resource</a>
+## <a id="_definition-of-a-resource" name="_definition-of-a-resource">Definition of a Resource</a>
 
 Documents produced by the WE1S project (other than those used in text mining and analysis) consist of web content (blog posts and some web page content) or "resources". Any document that we wish to archive on GitHub is considered a "resource". This applies in the following situations:
 
@@ -18,15 +18,15 @@ Documents produced by the WE1S project (other than those used in text mining and
 * The document is in a format that is not intended to be converted to HTML (e.g. Word, PDF), and we wish to provide a link to it on the website.
 * The document is intended for internal use and we wish to distribute it to project staff via GitHub.
 
-<a id="__web-content" name="__web-content">## Web Content</a>
+## <a id="__web-content" name="__web-content">Web Content</a>
 
-<a id="_blog-posts" name="_blog-posts">### Blog Posts</a>
+### <a id="_blog-posts" name="_blog-posts">Blog Posts</a>
 
 Blog posts are generally not generally considered "resources", and we can leave their archiving to the Wordpress database. In general, however, they should be authored offline in Markdown and the Markdown text should then be pasted into the Wordpress text editor. The Jetpack plugin will convert the Markdown to HTML and save the Markdown to the database's `filtered_content` column, from which it can be extracted easily. This procedure has the additional advantage of using Markdown to enforce simple, consistent formatting.
 
 The [StackEdit](https://stackedit.io/) editor is probably the most accessible online Markdown editor. The Markdown text can be copied from there directly into the Wordpress text editor. (Eventually, StackEdit will probably have the ability to publish directly to Wordpress, but it is not there yet.) More advanced users should be encouraged to author text in a code editor that employs linting (see below under **[How to Work with Markdown > Advanced Usage](https://github.com/whatevery1says/resources/blob/master/how-to-work-with-markdown/how-to-work-with-markdown.md#advanced-usage)**).
 
-<a id="_website-pages" name="_website-pages">### Website Pages</a>
+### <a id="_website-pages" name="_website-pages">Website Pages</a>
 
 Like blog posts, some page material on the website may not be appropriate to archive as a "resource". In this case, the instructions for blog posts should be followed. Otherwise, the conent should be authored in Markdown using [StackEdit](https://stackedit.io/) or a code editor. This will encourage simple, consistent formatting and make it easy to convert the text to other formats.  More advanced users should be encouraged to author text in a code editor that employs linting (see below under **[How to Work with Markdown > Advanced Usage](https://github.com/whatevery1says/resources/blob/master/how-to-work-with-markdown/how-to-work-with-markdown.md#advanced-usage)**).
 
@@ -34,7 +34,7 @@ For material intended only for the website, the content can be pasted directly i
 
 Non-textual assets (e.g. images) should be saved separately and archived on GitHub. The urls used to embed these assets in the web pages should be to the files archived on GitHub, not to the Wordpress media library.
 
-<a id="_other-resources" name="_other-resources">## Other Resources</a>
+## <a id="_other-resources" name="_other-resources">Other Resources</a>
 
 Documents in formats other than Markdown or HTML should be archived on GitHub. In general, the "Markdown first" philosophy should be followed. That is, wherever possible, documents should be authored first in Markdown and then converted to other formats. This will encourage simple, consistent formatting, and make it easy to convert the text to other formats.
 
@@ -44,7 +44,7 @@ Images can be embedded in Word and PDF files, but the originals should also be a
 
 In general, the Word files used to generate PDFs should be saved as "drafts". Minor changes to the formatting can then be made to the Word file and new PDFs generated. If the Word file is based on an original Markdown file, care should be taken to ensure that all changes to the text are made in both files. If there are drastic changes, only the Markdown should be edited, and the Word file should be regenerated based on the new copy.
 
-<a id="_storage-of-resources" name="_storage-of-resources">## Storage of Resources</a>
+## <a id="_storage-of-resources" name="_storage-of-resources">Storage of Resources</a>
 
 All resources other than blog posts and some web content should be stored in the GitHub `whatevery1says` repo. Currently, WE1S maintains two repos, one for `reports` and one for `resources`. These correspond to the menu items on the WE1S website. Drafts and items for internal use only should be place in the parallel `dev_reports` and `dev_resources` repos. (It is recommended that Word files used to generate PDFs be stored in the two development repos.) No other categories are prescribed at this time.
 
