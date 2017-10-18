@@ -46,26 +46,29 @@ In general, the Word files used to generate PDFs should be saved as "drafts". Mi
 
 ## <a id="_storage-of-resources" name="_storage-of-resources">Storage of Resources</a>
 
-All resources other than blog posts and some web content should be stored in the GitHub `whatevery1says` repo. Currently, WE1S maintains two repos, one for `reports` and one for `resources`. These correspond to the menu items on the WE1S website. Drafts and items for internal use only should be place in the parallel `dev_reports` and `dev_resources` repos. (It is recommended that Word files used to generate PDFs be stored in the two development repos.) No other categories are prescribed at this time.
+All resources other than blog posts and some web content should be stored in the GitHub `whatevery1says` repo. Currently, WE1S maintains two repos, one for `research` and one for `resources`. These correspond to the menu items on the WE1S website. Drafts and items for internal use only should be place in the parallel `dev_research` and `dev_resources` repos. (It is recommended that Word files used to generate PDFs be stored in the two development repos.) No other categories are prescribed at this time.
 
-Within the two main repos, each item should take the form of a [Frictionless Data](http://frictionlessdata.io/) data package. This consists of a JSON metadata file, the actual document, and a folder containing assets (e.g. images). The package may also contain a folder for versions in other formats, such as PDF. A typical file structure for each repo might therefore look like the following:
+Within the two main repos, each item should take the form of a [Frictionless Data](http://frictionlessdata.io/) data package. This consists of a JSON metadata file, the actual document, and a folder containing assets (e.g. images). The package may also contain a folder for versions in other formats, such as PDF. A typical file structure for each repo might therefore look like the following (which shows a `reports` subfolder in `research`:
 
 ```markdown
-reports
+research
 │   README.md
-└───report1
-│   │   datapackage.json
-│   │   report1.md
-│   └───assets
-│   │   image.md
-│   └───pdf
-│       report1.pdf
-└───report2
-│   │   datapackage.json
-│   │   report2.md
-│   └───assets
-│       image.md
-└─── ...
+└───reports
+│   |   README.md
+│   │
+│   └───report1
+│   │   │   datapackage.json
+│   │   │   report1.md
+│   │   └───assets
+│   │   │   image.md
+│   │   └───pdf
+│   │       report1.pdf
+│   └───report2
+│   │   │   datapackage.json
+│   │   │   report2.md
+│   │   └───assets
+│   │       image.md
+│   └─── ...
 │
 resources
 │   README.md
