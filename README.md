@@ -1,2 +1,2 @@
 # resources
-Repository for documentation and similar resources
+Repository for documentation and similar resources.
