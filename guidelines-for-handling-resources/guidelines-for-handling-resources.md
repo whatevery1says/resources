@@ -83,7 +83,7 @@ resources
 
 The basic `datapackage.json` file should look like the following:
 
-```json
+```javascript
 {
   "name": "a-unique-human-readable-and-url-usable-identifier",
   "title": "A nice title",
