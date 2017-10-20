@@ -179,8 +179,6 @@ In order to ensure that Markdown renders correctly on GitHub, care should be tak
 
 Instructions for setting up Markdown linting in your editor of choice are easily found in online tutorials. Here are some links to get you started:
 
-* [How to Set Up Sublime Text for Markdown Editing](http://plaintext-productivity.net/2-04-how-to-set-up-sublime-text-for-markdown-editing.html)
-* [Install SublimeLinter](http://www.sublimelinter.com/en/latest/installation.html#installing-via-pc)
 * VS Code supports Markdown files out of the box. You just start writing Markdown text, save the file with the `.md` extension. You can switch between Markdown and Preview mode with `Ctrl+Shift+V`, and you can view the preview side-by-side  with `Ctrl+K V`. For more information, see [Markdown and VS Code](https://code.visualstudio.com/docs/languages/markdown).
 * To install a Markdown linter in VS Code, select `View > Extensions` and enter `markdownlint` in the search field. When it comes up, click `Install` and then `Reload` when installation is complete.
 * **We need some instructions for Atom.**
