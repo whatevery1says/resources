@@ -2,8 +2,8 @@
   "name": "template_for_collection_area_of_focus_report",
   "title": "Template for WE1S Collection Area of Focus Report",
   "resources": [{
-      "path": "template_for_collection_area_of_focus_report.md.md",
+      "path": "template_for_collection_area_of_focus_report.md",
     },{
-      "path": "assets/word/template_for_collection_area_of_focus_report.md.docx",
+      "path": "assets/word/template_for_collection_area_of_focus_report.md",
     },]
 }
