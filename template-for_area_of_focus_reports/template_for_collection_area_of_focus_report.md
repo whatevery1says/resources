@@ -4,10 +4,10 @@ _Please answer the following questions about your area of research focus as you 
 
 _Please avoid fancy formatting (special fonts, colors, tables, spacing adjustments, etc., since this Word document will eventually be converted into Markdown before being posted online._
 
-_This document: version 1, 25 Jan. 2018_
+_This document: version 1.1: 9 Feb.  2018_
 
 
-## Collection Area of Focus Report Template
+## Corpus Collection Template for Reporting on an "Area of Focus"
 
 ### 1. Overview
 
@@ -27,7 +27,7 @@ _This document: version 1, 25 Jan. 2018_
 
 ### 2. Source Scoping Process
 
-#### How have you been selecting sources for the WE1S corpus? (e.g. collecting from particular databases, using &quot;impact&quot; lists, etc.)
+#### How have you been selecting sources for the WE1S corpus? (e.g. looking through particular databases, using &quot;impact&quot; lists, etc.)
 
 [Answer here]
 
